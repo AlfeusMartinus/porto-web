@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Profile | Personal</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> 
+<body>
+    <section class="utama">
+        <div class="width">
+            <header>
+                <div class="logo">
+                    <img src="./asset/1200px-Logo_Almamater_UPI.svg.png" alt="Logo UPI">
+                </div>
+
+                <nav>
+                    <div class="nav-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                   <ul class="nav-list">
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Tentang</a></li>
+                        <li><a href="#">Portofolio</a></li>
+                        <li><a href="#">Studi</a></li>
+                        <li class="btn" ><a href="#">Kontak</a></li>
+                   </ul>
+                </nav>
+            </header>
+
+            <div class="container">
+                <div class="main-teks">
+                    <h3>Sampurasun!</h3>
+                    <h1>Saya <span class="input-name"></span></h1>
+                    <p>Mahasiswa Software Engineering - Universitas Pendidikan Indonesia</p>
+                    <div class="sosmed">
+                        <a href="https://wa.me/62881023410516"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/feusmrtns_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/alfeusmartinus/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.dicoding.com/users/feusmartinus"><i class="fa-solid fa-terminal"></i></a>
+                    </div>
+                    <button type="button">Info Lengkap</button>
+                </div>
+                <div class="footer">
+                    <p>© 2023 Alfeus - All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ini untuk teks berjalan -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        var changeName = new Typed(".input-name", {
+            strings:["Alfeus Martinus.", "Manusia Biasa.", "Cuma bisa {Hello World}"],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+    <script src="../webProfil/script/script.js"></script>
+</body>
+</html>
